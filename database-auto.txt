@@ -1,0 +1,18 @@
+AUTO
+
+- id --> mediumint , primary-key ,unique , auto_increment , NOT_NULL
+- modello --> varchar(30), NOT_NULL
+- alimentazione --> string , varchar(20) ,NOT_NULL
+- anno_produzione --> date , year ,NOT_NULL
+- casa_automobilistica --> string, varchar(30), NOT_NULL
+- cilindrata --> mediumint , NOT_NULL
+
+AUTO USATA
+
+- id_autoUsata --> mediumint , primary key unique ,auto_increment, NOT_NULL
+- id --> AUTO id , NOT_NULL
+- prezzo --> mediumint NOT_NULL
+- km_Percorsi --> MEDIUMINT,NOT_NULL 
+- targa --> varchar(7)
+- colore --> varchar(30) NOT_NULL
+- data_ritiro_auto --> date , date
